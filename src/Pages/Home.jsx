@@ -1,6 +1,7 @@
 import React from 'react'
 import TopNavbar from './TopNavbar'
 import Navbar from './Navbar'
+import s1 from '../images/s1.png'
 import Img2 from '../images/farming-1.jpg';
 import Img4 from '../images/farming-2.jpg'
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -16,6 +17,7 @@ import { FaCheck } from "react-icons/fa";
 import Img5 from '../images/farming-3.jpg'
 import Footer from './Footer';
 import Img6 from '../images/farming-5.png'
+import s2 from '../images/s2.avif'
 import { FaAngleRight } from "react-icons/fa";
 
 
@@ -67,7 +69,7 @@ function Home() {
         <div className='container mx-auto'>
        <Slider {...settings}>
        <div className='relative '>
-           <img src={Img2} alt="" className='object-cover'/>
+           <img src={Img2} alt="" className='ajay object-cover lg:h-[759px] md:h-[383px] h-[213px]'/>
             <div className='absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center'>
                 <div className='text-white pt-2'>
                     <div className='text-center'>
@@ -93,7 +95,7 @@ function Home() {
            </div>
 
            <div className='relative '>
-           <img src={Img4} alt="" className='object-cover lg:h-[630px] md:h-[383px] h-[213px]'/>
+           <img src={Img4} alt="" className='ajay object-cover lg:h-[759px] md:h-[383px] h-[213px]'/>
             <div className='absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center'>
                 <div className='text-white pt-2'>
                     <div className='text-center'>
@@ -181,7 +183,7 @@ function Home() {
         <div className='container mx-auto mt-[80px]'>
              <div className='grid md:grid-cols-2 gap-1'>
              <div className='relative '>
-           <img src="https://img.freepik.com/premium-photo/ai-generated-portrait-farmer-front-his-tractor-sunny-day-crop-field_746009-336.jpg" alt="" className='object-cover h-[500px]'/>
+           <img src={s2} alt="" className='object-cover h-[500px]'/>
             <div className='absolute inset-0 bg-black bg-opacity-80 flex text-white'>
                  <div className='lg:ml-[70px] ml-[20px] mt-[50px]'>
                        <h1 className='text-[#d57315] text-[20px]'>Why Choose us ?</h1>
@@ -359,7 +361,7 @@ function Home() {
                 <div className='shadow-lg mt-[20px]'>
                       <div className='grid grid-cols-4 gap-3'>
                           <div className='pl-[15px] flex justify-center items-center col-span-1'>
-                            <img src="https://www.umaexports.net/images/icon/6.png" alt="" />
+                            <img src={s1} alt="" />
                           </div>
                            <div className='pt-[35px] col-span-3'>
                              <h1 className='text-[20px] font-semibold'>Agro Feed</h1>

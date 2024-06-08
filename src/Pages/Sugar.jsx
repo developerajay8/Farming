@@ -11,6 +11,7 @@ import Img6 from '../images/farming-4.jpg'
 import { BsArrowRight } from "react-icons/bs";
 import Footer from "./Footer";
 import Img7 from '../images/R.sugar.jpeg'
+import ss1 from '../images/ss1.jpg'
 
 
 const Sugar = () => {
@@ -81,7 +82,7 @@ const Sugar = () => {
                   <h1 className=" text-[17px] ">Tea</h1>
                   <FaArrowRight className="" />
                 </div>
-              </div>
+              </div>  
              </Link>
 
              <Link to={"/pulses"}>
@@ -148,7 +149,7 @@ const Sugar = () => {
           <div className="grid col-span-2 order-1 lg:order-2  ">
             <div className="">
               <img
-                src="https://thehaulagenews.com/wp-content/uploads/2021/05/Indias-sugar-exports-on-good-course.jpg"
+                src={ss1}
                 alt=""
               />
             </div>

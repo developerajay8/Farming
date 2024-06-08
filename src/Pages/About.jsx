@@ -5,6 +5,11 @@ import Img6 from '../images/farming-4.jpg'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from "react-icons/bs";
 import Img7 from '../images/farming-5.png'
+import p1 from '../images/p1.jpg'
+import p2 from '../images/p2.jpg'
+import p3 from '../images/p3.jpg'
+import p4 from '../images/p4.png'
+import p5 from '../images/p5.jpg'
 import Footer from './Footer'
 
 function About() {
@@ -65,7 +70,7 @@ function About() {
           <div className='grid md:grid-cols-2 grid-cols-1 gap-4'>
             <div className='grid grid-cols-1 p-1 lg:pl-[90px] '>
               <div className=' ml-[80px] md:ml-[90px] mt-9'>
-                <img src="https://www.trinity.edu.np/assets/backend/uploads/About-us/vision.jpg" className='border p-3 border-dashed' alt=""  width={200}/>
+                <img src={p5} className='border p-3 border-dashed' alt=""  width={200}/>
               </div>
 
               <div className='mt-3 md:mt-0'>
@@ -77,7 +82,7 @@ function About() {
 
               <div className='grid grid-cols-1  lg:pl-[90px] lg:pr-9 '>
               <div className=' ml-[80px] md:ml-[90px] mt-9'>
-                <img src="https://www.ztechms.com/wp-content/uploads/2019/05/missn.png" className='border p-3 border-dashed' alt=""  width={200}/>
+                <img src={p4} className='border p-3 border-dashed' alt=""  width={200}/>
               </div>
          <div className='mt-[60px] '>
          <h1 className='text-3xl  font-semibold'>Mission</h1> 
@@ -112,15 +117,15 @@ function About() {
     <div className='container mx-auto lg:p-16 md:p-12 p-5'>
            <div className='grid md:grid-cols-3 gap-4 mx-4'>
               <div className=''>
-                <img src="https://demo.htmlcodex.com/2500/home-repair-website-template/img/team-1.jpg" alt="" />
+                <img src={p3} alt="" />
               </div>
 
               <div>
-                <img src="https://demo.htmlcodex.com/2500/home-repair-website-template/img/team-2.jpg" alt="" />
+                <img src={p2} alt="" />
               </div>
 
               <div>
-                <img src="https://demo.htmlcodex.com/2500/home-repair-website-template/img/team-3.jpg" alt="" />
+                <img src={p1} alt="" />
               </div>
            </div>
      </div>
